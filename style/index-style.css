@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #0a0a1a; 
+    background-image: url('/img/stars.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #f2f2f2;
+}
+
+#header-container {
+    text-align: center;
+    padding: 50px 20px;
+    background-image: url('/img/stars.png');
+}
+
+#header-container h1 {
+    font-size: 3em;
+    color: #ff0000;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px black;
+}
+
+#header-container p {
+    font-size: 1.2em;
+    color: #e0e0e0;
+}
+
+#trilogias-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+}
+
+.trilogia {
+    background-color: #1a1a1a;
+    border: 2px solid #ff0000;
+    border-radius: 15px;
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.trilogia:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ff0000;
+}
+
+.imagen-trilogia img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ff0000;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.trilogia h2 {
+    color: #ff0000;
+    font-size: 1.3em;
+    margin: 10px 0 20px 0;
+}
+
+.trilogia a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer {
+    background-image: url('/img/stars.png');
+    color: #e0e0e0;
+    text-align: center;
+    padding: 3px 0;
+}
+
+@keyframes glow {
+    0% { text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000; }
+    50% { text-shadow: 0 0 20px #ff0000, 0 0 30px #ff0000; }
+    100% { text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000; }
+}
+
+#header-container h1 {
+    animation: glow 2s infinite alternate;
+}

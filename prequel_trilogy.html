@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/trilogy.css">
+    <title>Trilogía de Precuelas - Star Wars</title>
+</head>
+<body style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('img/coruscant.png'); background-size: cover; background-repeat: no-repeat; background-position: center;">
+
+    <div class="card-header">
+        <header>
+            <h1>Trilogía de Precuelas</h1>
+        </header>
+    </div>
+
+    <div class="card-body">
+        <main>
+            <div id="descripcion">
+                <h2>Descripción General</h2>
+                <p>
+                    La Segunda trilogía de Star Wars (conocida como Trilogía de Precuelas o coloquialmente llamadas las precuelas), 
+                    es una serie de películas épicas de ópera espacial escritas y dirigidas por George Lucas, perteneciente a la franquicia Star Wars. 
+                    Fue producido por Lucasfilm Ltd. y distribuido por 20th Century Fox entre 1999 hasta 2019 y desde ese año por Walt Disney Company.
+                </p>
+
+                <p>
+                    La trilogía se estrenó entre 1999 y 2005 y está ambientada antes de los eventos de la trilogía original de Star Wars (1977-1983), 
+                    lo que la convierte cronológicamente en el primer acto de la saga Skywalker. 
+                    Lucas había planeado una trilogía de precuelas (así como una trilogía de secuelas) antes del lanzamiento de la película original, 
+                    pero detuvo la producción de películas de Star Wars más allá de la trilogía original en 1981.
+                </p>
+
+            </div>
+
+            <div id="tabla-peliculas">
+                <h2>Lista de Películas</h2>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Episodio</th>
+                            <th>Título</th>
+                            <th>Año</th>
+                            <th>Director</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>I</td>
+                            <td>La Amenaza Fantasma</td>
+                            <td>1999</td>
+                            <td>George Lucas</td>
+                        </tr>
+                        <tr>
+                            <td>II</td>
+                            <td>El Ataque de los Clones</td>
+                            <td>2002</td>
+                            <td>George Lucas</td>
+                        </tr>
+                        <tr>
+                            <td>III</td>
+                            <td>La Venganza de los Sith</td>
+                            <td>2005</td>
+                            <td>George Lucas</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="imagenes">
+                <div class="imagen-pelicula">
+                    <img src="img/episode1.png" alt="Episodio I" width="300">
+                    <p>Episodio I: La Amenaza Fantasma</p>
+                </div>
+                <div class="imagen-pelicula">
+                    <img src="img/episode2.png" alt="Episodio II" width="300">
+                    <p>Episodio II: El Ataque de los Clones</p>
+                </div>
+                <div class="imagen-pelicula">
+                    <img src="img/episode3.png" alt="Episodio III" width="300">
+                    <p>Episodio III: La Venganza de los Sith</p>
+                </div>
+            </div>
+
+            <p>
+                Cuando las imágenes generadas por computadora (CGI) habían avanzado al nivel que él quería para los efectos visuales 
+                que quería para las películas posteriores, Lucas revivió los planes para las precuelas a principios de la década de 1990. 
+                La trilogía marcó el regreso de Lucas a la dirección después de una pausa de 22 años después de la película original de Star Wars en 1977, 
+                así como una pausa de 16 años entre ambas trilogías.
+            </p>
+
+            <p>
+                La trilogía se conforma de Episodio I: <em>La amenaza fantasma</em> (1999), Episodio II: <em>El ataque de los clones</em> (2002) 
+                y Episodio III: <em>La venganza de los Sith</em> (2005). 
+                Las películas siguen el entrenamiento del poderoso joven Anakin Skywalker (el padre de los protagonistas originales de la trilogía Luke Skywalker y Leia Organa) 
+                como Jedi bajo la tutela de los Maestros Obi-Wan Kenobi y Yoda, su caída al lado oscuro de la Fuerza y renacer como Darth Vader.
+            </p>
+
+            <p>
+                La trilogía también describe la corrupción de la República Galáctica, el desarrollo de las Guerras Clon, 
+                la aniquilación de la Orden Jedi y el surgimiento del Imperio bajo el mando del Lord Sith secreto y futuro Emperador Galáctico Palpatine / Darth Sidious. 
+                Las dos primeras películas recibieron críticas mixtas, mientras que la recepción de la tercera fue más positiva.
+            </p>
+
+            <div id="comentarios">
+                <h2>Comentarios</h2>
+                <form action="#" method="post">
+                    <div>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div>
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                    </div>
+                    <div>
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+    </div>
+
+    <footer id="footer">
+        <div id="footer-container">
+            <p>Star Wars Fan Site <a href="index.html">Volver al inicio</a></p>
+        </div>
+    </footer>
+</body>
+</html>
